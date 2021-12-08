@@ -1,15 +1,15 @@
-.RightbarFriend {
+.rightbarFriend {
     display: flex;
     align-items: center;
     margin-bottom: 15px;
 }
 
-.RightbarProfileImgContainer {
+.rightbarProfileImgContainer {
     margin-right: 10px;
     position: relative;
 }
 
-.RightbarProfileImg {
+.rightbarProfileImg {
     width: 40px;
     height: 40px;
     border-radius: 50%;
@@ -17,10 +17,10 @@
     cursor: pointer;
 }
 
-.RightbarOnline {
+.rightbarOnline {
     width: 12px;
     height: 12px;
-    border-radius: 15px;
+    border-radius: 50%;
     background-color: limegreen;
     position: absolute;
     top: -2px;
@@ -28,6 +28,6 @@
     border: 2px solid white;
 }
 
-.RightbarUsername {
+.rightbarUsername {
     font-weight: 500;
 }

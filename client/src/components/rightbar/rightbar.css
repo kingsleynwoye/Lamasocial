@@ -1,9 +1,9 @@
-.Rightbar {
+.rightbar {
     flex: 3.5;
 }
 
-.RightbarWrapper {
-    padding: 20px 20px 0;
+.rightbarWrapper {
+    padding: 20px 20px 0 0;
 }
 
 .birthdayContainer {
@@ -22,34 +22,29 @@
     font-size: 15px;
 }
 
-.RightbarAd {
+.rightbarAd {
     width: 100%;
     border-radius: 10px;
     margin: 30px 0;
 }
 
-.RightbarTitle {
+.rightbarTitle {
     margin-bottom: 20px;
 }
 
-.RightbarFriendList {
+.rightbarFriendList {
     padding: 0;
     margin: 0;
     list-style: none;
 }
 
-.RightbarProfileImgContainer {
-    margin-right: 10px;
-    position: relative;
-}
-
-.RightbarTitle {
+.rightbarTitle {
     font-size: 18px;
     font-weight: 500;
     margin-bottom: 10px;
 }
 
-.RightbarInfo {
+.rightbarInfo {
     margin-bottom: 30px;
 }
 
@@ -67,22 +62,42 @@
     font-weight: 300;
 }
 
-.RightbarFolowings {
+.rightbarFollowings {
     display: flex;
     flex-wrap: wrap;
     justify-content: space-between;
 }
 
-.RightbarFollowing {
+.rightbarFollowing {
     display: flex;
     flex-direction: column;
     margin-bottom: 20px;
     cursor: pointer;
+    margin: 1px;
 }
 
-.RightbarFollowingImg {
+.rightbarFollowingImg {
     width: 100px;
     height: 100px;
     object-fit: cover;
     border-radius: 5px;
+}
+
+.rightbarFollowButton {
+    margin-top: 30px;
+    margin-bottom: 10px;
+    border: none;
+    background-color: #1872f2;
+    color: white;
+    border-radius: 5px;
+    padding: 5px 10px;
+    display: flex;
+    align-items: center;
+    font-size: 16px;
+    font-weight: 500;
+    cursor: pointer;
+}
+
+.rightbarFollowButton:focus {
+    outline: none;
 }
